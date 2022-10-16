@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10;
+}
+
+.card {
+    background-color: #008d7d;
+    height: 215px;
+    width: 215px;
+    border-radius: 15px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.icon1 {
+    fill: white;
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.icon2 {
+    fill: white;
+    width: 50px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+
+}
+
+.icon3 {
+    fill: white;
+    width: 110px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+}
+
+.icon4 {
+    fill: white;
+    width: 50px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
